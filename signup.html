@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("R.jpg");
+            margin-top: 120px;
+        }
+        input{
+    background-color: transparent;
+    margin-left: 35%;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+   
+
+  }
+  input:hover{
+    background-color: #333;
+    color: white;
+    transition: 0.5s;
+  }
+
+  #signup{
+    margin-top: 7px;
+    margin-left: 47%;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 20px;
+  }
+  #body{
+    color: aqua;
+   
+  }
+  legend{
+    text-align: center;
+    font-size: 30px;
+  } 
+  button {
+  padding: 10px 20px;
+  background-color: #0033ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: inline-flex;
+ 
+
+}
+
+
+nav{
+position: fixed;
+top: 10px;
+font-size: 30px;
+display: inline;
+
+}
+h1{
+   display: inline; 
+   font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: inline;
+position: fixed;
+right: 0;
+  float: right;
+  top:20px;
+}
+
+nav ul li {
+    display: inline;
+  margin-right: 10px;
+
+  right: 0px;
+
+}
+
+a:hover{
+    
+    color: red;
+    transition: 0.5s;
+}
+    </style>
+    <header>
+        <h1 id="h1">scitopia Voluntary Organization</h1>
+        <nav>
+            
+          <ul id="ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+
+          </ul>
+        </nav>
+      </header>
+<div id="body">
+    <section id="volunteer">
+      <fieldset><legend>SIGN UP</legend>
+      <form >
+        <input type="text" placeholder="name" id="name"><br><br>
+        <input type="email" name="" id="email" placeholder="email"><br>
+        
+      </form>
+      <button id="signup" onclick="signup()">Sign up</button>
+    </fieldset>
+    </section>
+  
+  </div>
+  <script>
+    function signup(){
+        window.alert("Thank you for joining us");
+    }
+  </script>
+</body>
+</html>

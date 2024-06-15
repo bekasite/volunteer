@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Voluntary Organization</title>
+</head>
+<body>
+  <header>
+    <h1 id="h1">Voluntary Organization</h1>
+    <nav>
+        
+      <ul id="ul">
+       
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+<div id="body">
+  <section id="volunteer">
+    <h2>Volunteer</h2>
+    <p>Join us in making a difference.</p>
+    <fieldset><legend>SIGN UP</legend>
+    <form id="volunteerForm" >
+      <input type="text" placeholder="name" id="name"><br><br>
+      <input type="email" name="" id="email" placeholder="email"><br>
+      <button id="signup">Sign up</button>
+    </form>
+  </fieldset>
+  </section>
+
+</div>
+  <footer>
+    <p>&copy; 2024 Voluntary Organization</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<style>
+  legend{
+    text-align: center;
+    font-size: 30px;
+  } 
+   input{
+    background-color: transparent;
+    margin-left: 38%;
+    padding: 40px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+   
+
+  }
+  input:hover{
+    background-color: #333;
+    color: white;
+    transition: 0.5s;
+  }
+
+  #signup{
+    margin-top: 20px;
+    margin-left: 47%;
+    padding: 40px;
+    font-size: 30px;
+    border-radius: 20px;
+  }
+  #body{
+    margin-top: 180px;
+  }
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("R.jpg");
+  padding: 0;
+
+  
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 60px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: inline-flex;
+
+}
+
+
+nav{
+position: fixed;
+top: 10px;
+font-size: 30px;
+display: inline;
+
+}
+h1{
+   display: inline; 
+   font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: inline;
+position: fixed;
+right: 0;
+  float: right;
+  top:120px;
+}
+
+nav ul li {
+    display: inline;
+  margin-right: 40px;
+
+  right: 0px;
+  
+
+
+
+}
+
+section {
+  padding: 50px;
+}
+
+footer {
+  position: fixed;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0033ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+a:hover{
+    
+    color: red;
+    transition: 0.5s;
+}
+
+</style>
+<script>
+if(innerWidth<=700){
+  document.getElementById("h1").style.marginTop="0px";
+  document.getElementById("ul").style.marginTop="36px";
+  document.getElementById("email").style.marginLeft="20px";
+  document.getElementById("signup").style.marginLeft="50px";
+    document.getElementById("name").style.marginLeft="20px";
+  }
+
+</script>

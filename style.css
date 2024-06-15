@@ -6,7 +6,7 @@
    input{
     background-color: transparent;
     margin-left: 38%;
-    padding: 40px;
+    padding: 30px;
     font-size: 30px;
     border-radius: 30px;
     cursor: pointer;
@@ -20,9 +20,9 @@
   }
 
   #signup{
-    margin-top: 20px;
+    margin-top: 7px;
     margin-left: 47%;
-    padding: 40px;
+    padding: 30px;
     font-size: 30px;
     border-radius: 20px;
   }

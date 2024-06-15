@@ -34,7 +34,7 @@ body {
   font-family: Arial, sans-serif;
   background-image: url("R.jpg");
   padding: 0;
-  background-size: 100% 100%;
+  background-size:cover;
   background-repeat: no-repeat;  
 }
 

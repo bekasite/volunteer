@@ -161,6 +161,17 @@ a:hover{
   
   </div>
   <script>
+
+if(innerWidth<=700){
+  document.getElementById("name").style.marginLeft="5%";
+  document.getElementById("email").style.marginLeft="5%";
+  document.getElementById("body").style.marginTop="170px";
+  document.getElementById("signup").style.marginLeft="20%";
+  function bar(){
+
+document.getElementById("ul").style.width="100%";
+}
+}
     function signup(){
         window.alert("Thank you for joining us you will recieve confirmation text by your email address");
         let email=document.getElementById("email").value;

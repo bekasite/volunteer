@@ -33,7 +33,7 @@ display: inline;
 
 }
 h1{
-   display: inline; 
+   display: inline-flex; 
    font-size: 40px;
 }
 a{
